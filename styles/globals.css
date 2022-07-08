@@ -1,16 +1,85 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
-  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.amber {
+  background-color: #bc8c38;
+}
+
+.amber:hover {
+  background-color: #18181b;
+  color: #bc8c38;
+}
+
+.bluey {
+  background-color: #2284c1;
+}
+
+.bluey:hover {
+  background-color: #18181b;
+  color: #2284c1;
+}
+
+.greeny {
+  background-color: #52a85f;
+}
+
+.greeny:hover {
+  background-color: #18181b;
+  color: #52a85f;
+}
+
+.pinkish {
+  background-color: #bd6a7c;
+}
+
+.pinkish:hover {
+  background-color: #18181b;
+  color: #bd6a7c;
+}
+
+.purpley {
+  background-color: #704dff;
+}
+
+.purpley:hover {
+  background-color: #18181b;
+  color: #704dff;
+}
+
+.redish {
+  background-color: #c63c43;
+}
+
+.redish:hover {
+  background-color: #18181b;
+  color: #c63c43;
+}
+
+.amber-icon {
+  color: #bc8c38;
+}
+
+.bluey-icon {
+  color: #2284c1;
+}
+
+.greeny-icon {
+  color: #52a85f;
+}
+
+.pinkish-icon {
+  color: #bd6a7c;
+}
+
+.purpley-icon {
+  color: #704dff;
+}
+
+.redish-icon {
+  color: #c63c43;
 }
