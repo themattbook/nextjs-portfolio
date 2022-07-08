@@ -1,14 +1,6 @@
 import React from "react";
 
-interface CardData {
-  background: string;
-  title: string;
-  icon: string;
-  iconColor: string;
-  description: string;
-}
-
-export default function TechCard(props: CardData) {
+export default function TechCard(props) {
   return (
     <>
       <div

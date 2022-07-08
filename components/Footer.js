@@ -1,39 +1,56 @@
 import React from "react";
-
 import Link from "next/link";
 
 export default function Footer() {
   return (
     <>
-      <footer className="flex flex-col items-center justify-between px-6 py-4 sm:flex-row container mx-auto text-gray-400 animate-fade-in">
+      <footer className="flex items-center justify-evenly sm:justify-between px-6 py-4 sm:flex-row container mx-auto text-gray-400 animate-fade-in">
         <Link href="/" passHref>
           <a
             href="#"
-            className="text-2xl font-bold cursor-pointer hover:underline"
+            className="text-lg sm:text-2xl font-bold cursor-pointer hover:underline"
           >
-            matthew sweet
+            mattsweet
           </a>
         </Link>
-        <Link href="/" passHref>
-          <a href="#" className="text-sm cursor-pointer hover:underline">
+        <Link href="/blog/archive" passHref>
+          <a
+            href="#"
+            className="text-lg sm:text-sm cursor-pointer hover:underline"
+          >
             blog
           </a>
         </Link>
         <Link href="/" passHref>
-          <a href="#" className="text-sm cursor-pointer hover:underline">
+          <a
+            href="#"
+            className="text-sm cursor-pointer hover:underline hidden sm:block"
+          >
             get in touch
           </a>
         </Link>
         <Link href="/" passHref>
-          <a href="#" className="text-sm cursor-pointer hover:underline">
+          <a
+            href="#"
+            className="text-sm cursor-pointer hover:underline hidden sm:block"
+          >
             see this portfolio&apos;s code
           </a>
         </Link>
 
         <div className="flex -mx-2">
+          <Link href="https://www.linkedin.com/in/meetmattsweet/" passHref>
+            <a
+              className="mx-2 cursor-pointer hidden sm:block"
+              aria-label="LinkedIn"
+              target="_blank"
+            >
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+          </Link>
           <Link href="https://instagram.com/javascript_matt" passHref>
             <a
-              className="mx-2 cursor-pointer"
+              className="mx-2 cursor-pointer hidden sm:block"
               aria-label="Instagram"
               target="_blank"
             >
@@ -42,7 +59,7 @@ export default function Footer() {
           </Link>
           <Link href="https://twitter.com/meetmattsweet" passHref>
             <a
-              className="mx-2 cursor-pointer"
+              className="mx-2 cursor-pointer hidden sm:block"
               aria-label="Twitter"
               target="_blank"
             >
@@ -51,7 +68,7 @@ export default function Footer() {
           </Link>
           <Link href="https://github.com/themattbook" passHref>
             <a
-              className="mx-2 cursor-pointer"
+              className="mx-2 cursor-pointe hidden sm:blockr"
               aria-label="Github"
               target="_blank"
             >
@@ -60,7 +77,7 @@ export default function Footer() {
           </Link>
           <Link href="https://codepen.io/themattbook" passHref>
             <a
-              className="mx-2 cursor-pointer"
+              className="mx-2 cursor-pointer hidden sm:block"
               aria-label="Codepen"
               target="_blank"
             >
@@ -69,7 +86,7 @@ export default function Footer() {
           </Link>
           <Link href="mailto:themattbook@gmail.com" passHref>
             <a
-              className="mx-2 cursor-pointer"
+              className="mx-2 cursor-pointer hidden sm:block"
               aria-label="Mail"
               target="_blank"
             >
