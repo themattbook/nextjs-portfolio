@@ -21,7 +21,7 @@ export default function Footer() {
             blog
           </a>
         </Link>
-        <Link href="/" passHref>
+        <Link href="mailto:themattbook@gmail.com" passHref>
           <a
             href="#"
             className="text-sm cursor-pointer hover:underline hidden sm:block"
@@ -29,7 +29,7 @@ export default function Footer() {
             get in touch
           </a>
         </Link>
-        <Link href="/" passHref>
+        <Link href="https://github.com/themattbook/nextjs-portfolio" passHref>
           <a
             href="#"
             className="text-sm cursor-pointer hover:underline hidden sm:block"
