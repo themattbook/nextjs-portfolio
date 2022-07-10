@@ -11,9 +11,6 @@ export default function Footer() {
           </a>
         </Link>
         <Link href="/blog/archive" passHref>
-          <a className="text-sm cursor-pointer hover:underline">about me</a>
-        </Link>
-        <Link href="/blog/archive" passHref>
           <a href="#" className="text-sm cursor-pointer hover:underline">
             blog
           </a>
