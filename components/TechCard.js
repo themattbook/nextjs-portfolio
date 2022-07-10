@@ -13,11 +13,11 @@ export default function TechCard(props) {
         </div>
         <div className="mt-2 sm:mt-5 max-w-2xl px-6 xl:py-4 mb-2 sm:mb-6">
           <div>
-            <h3 className="font-extrabold tracking-tight text-3xl sm:text-4xl 2xl:text-[3.5em] sm:mb-4 uppercase">
+            <h3 className="font-extrabold tracking-tight text-3xl sm:text-4xl 2xl:text-[4em] sm:mb-4 uppercase">
               {props.title}
             </h3>
-            <p className="text-xs sm:text-xs font-medium tracking-wide mt-2 sm:mt-8">
-              <span>{props.description}</span>
+            <p className="text-xs font-bold tracking-tight mt-2 sm:mt-8">
+              {props.description}
             </p>
           </div>
         </div>

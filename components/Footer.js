@@ -6,36 +6,20 @@ export default function Footer() {
     <>
       <footer className="flex items-center justify-evenly sm:justify-between px-6 py-4 sm:flex-row container mx-auto text-gray-400 animate-fade-in">
         <Link href="/" passHref>
-          <a
-            href="#"
-            className="text-lg sm:text-2xl font-bold cursor-pointer hover:underline"
-          >
+          <a className="text-lg sm:text-2xl font-bold cursor-pointer hover:underline">
             mattsweet
           </a>
         </Link>
         <Link href="/blog/archive" passHref>
-          <a
-            href="#"
-            className="text-lg sm:text-sm cursor-pointer hover:underline"
-          >
+          <a className="text-sm cursor-pointer hover:underline">about me</a>
+        </Link>
+        <Link href="/blog/archive" passHref>
+          <a href="#" className="text-sm cursor-pointer hover:underline">
             blog
           </a>
         </Link>
-        <Link href="mailto:themattbook@gmail.com" passHref>
-          <a
-            href="#"
-            className="text-sm cursor-pointer hover:underline hidden sm:block"
-          >
-            get in touch
-          </a>
-        </Link>
-        <Link href="https://github.com/themattbook/nextjs-portfolio" passHref>
-          <a
-            href="#"
-            className="text-sm cursor-pointer hover:underline hidden sm:block"
-          >
-            see this portfolio&apos;s code
-          </a>
+        <Link href="/projects" passHref>
+          <a className="text-sm cursor-pointer hover:underline">projects</a>
         </Link>
 
         <div className="flex -mx-2">

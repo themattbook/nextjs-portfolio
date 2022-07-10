@@ -5,7 +5,7 @@ export default function ResumeArea() {
   return (
     <>
       <div className="flex flex-1 items-center justify-center sm:mx-auto">
-        <div className="sm:grid sm:grid-cols-1 xl:grid-cols-4 gap-5 w-[70%]">
+        <div className="sm:grid sm:grid-cols-1 xl:grid-cols-4 gap-5 2xl:gap-10 w-[70%]">
           <TechCard
             background="amber"
             title="js"
